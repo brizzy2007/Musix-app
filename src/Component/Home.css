@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)), url(../assets/Main.jpg);
+    height: 100vh;
+    background-size: cover;
+    min-height: 100px;
+}
+.homeul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+.homeul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.homeul li{
+    display: inline-block;
+}
+.homeul li a:hover{
+    background-color: white;
+    color: #000;
+}
+.active a{
+    background-color: white;
+    color: #000;
+    
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.main{
+    width: 100%;
+    margin: auto;
+    /* margin-top: 10px; */
+}
+.tittle{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tittle h1{
+    color: white;
+    font-size: 60px;
+}
+.button{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin-top: 10px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.5s ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.homeh1{
+    color: red;
+    font-size: 20px;
+}
+.main .homeul li {
+    margin-right: 15px;
+    position: relative; /* Add this line */
+}
+
+.homeul li {
+    margin-right: 15px;
+  }
+  
+  .homeul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.btn:hover{
+    background-color: white;
+    color: #000;
+}
+.sub-menu{
+    display: none;
+    top: 7%;
+    position: relative;
+}
+.sub-menu .homeul{
+    position: absolute;
+}
+.main .homeul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,45,117);
+    margin-top: 12px;
+    margin-left: -8px;
+    width: auto; /* add this line */
+}
+.main .homeul li:hover .sub-menu .homeul{
+    display: block;
+    margin: 6px;
+}
+.main .homeul li:hover .sub-menu .homeul li{
+    width: 100%; /* Change this line from 75px to 100% */
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.5s ease;
+    text-align: left;
+    border-radius: 0;
+}
+.main .homeul li:hover .sub-menu .homeul li:last-child{
+    border-bottom: none;
+}
+.navbar{
+    display: flex;
+}
+
+/* ... (existing styles) */
+
+.menu-icon {
+    display: none; /* Hide menu icon by default */
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+  }
+  
+  .menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  .logo{
+    color: red;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .homeh1{
+    display: none;
+    
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .menu-icon {
+      display: block; /* Show menu icon on smaller screens */
+    }
+  
+    .homeul {
+      display: none; /* Hide navigation menu by default on smaller screens */
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+    }
+  
+    .homeul.show-menu {
+      display: flex; /* Show navigation menu when showMenu is true */
+    }
+  
+    /* ... (rest of your existing responsive styles) */
+        header{
+            width: 100%;
+        }
+    .homecont{
+        width: 100%;
+    }
+    .tittle h1{
+        font-size: 26px;
+        top: 0;
+        right: 0;
+    }
+    .button{
+        width: 50%;
+    }
+    .button .btn{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+  }
+      

@@ -1,0 +1,29 @@
+<div className='aboutMainContainer'>  
+    <section className='aboutSection'>
+        <div className='aboutContainer'>
+      <h1 className='aboutH1'>About us</h1>
+      <p className='aboutP'>Welcome to [Your Food Website]! We are passionate about bringing delicious and nutritious food to your table.</p>
+
+      <h2 className='aboutH2'>Our Mission</h2>
+      <p className='aboutP'>At [Your Food Website], our mission is to provide high-quality , fresh, and mouthwatering dishes that satisfy your cravings and nourish your body.</p>
+<div>
+      <h2 className='aboutH2'>Our Team</h2>
+      <p className='aboutP'>We have a dedicated team of chefs and culinary experts who work tirelessly to create unique and flavourable recipes. Meet the talented individuals behind the magic!</p>
+
+      <ul className='aboutUl'>
+        <li className='aboutLi'>Chef John Doe - Head Chef</li>
+        <li className='aboutLi'>Emily Smith - Pastry Chef</li>
+        <li className='aboutLi'>Alex Rodriguez - Nutrition Specialist</li>
+        
+      </ul>
+      </div>
+
+      <h2 className='aboutH2'>Contact Us</h2>
+      <p className='aboutP'>Have Questions or feedback? We'd love to hear from you</p>
+      <p className='aboutP'>Visit our contact page <a href="">Contact us</a></p>
+      <h2>Our Adress</h2>
+      <p className='aboutP'>123 Food Street, CityVille, State, ZIP</p>
+
+      </div>
+     </section>
+     </div> 
