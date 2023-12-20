@@ -14,6 +14,7 @@ const Contact= () =>{
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+  
   return (
     <div>
       <header className='contactHeader'>
@@ -33,7 +34,7 @@ const Contact= () =>{
             <Link to={'/'}><IoIosHome />HOME</Link>
           </li>
           <li>
-          <a href="">About</a>
+          <Link to={'/about'}>About</Link>
           </li>
           <li>
             <Link to={'/contact'}>Contact</Link>

@@ -1,0 +1,74 @@
+
+  .aboutUl{
+    margin-left: 30px;
+  }
+  .aboutUl .aboutLi{
+    margin-top: 5px;
+  }
+  .aboutP{
+    margin-top: 5px;
+  }
+  .aboutP .Aboutcontactt{
+    text-decoration: none;
+    color: 
+    white;
+  }
+  .aboutP .Aboutcontactt:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+  }
+ .tittles .aboutH1{
+  font-size: 30px;
+ }
+ .tittles{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  color: white;
+}
+/* .tittles2{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.homeul{
+  position: absolute;
+  left: 12.5%;
+}
+
+@media only screen and (max-width: 768px){
+  .tittles{
+    position: absolute;
+    top: 63%;
+  }
+}
+@media only screen and (width: 414px){
+  .tittles{
+    position: absolute;
+    top: 58%;
+  }
+  *{
+    font-size: 20px;
+  }
+}
+@media only screen and (width: 390px){
+  .tittles{
+    position: absolute;
+    top: 50%;
+  }
+}
+@media only screen and (width: 430px){
+  .tittles{
+    position: absolute;
+    top: 50%;
+  }
+}
+@media only screen and (width: 412px){
+  .tittles{
+    position: absolute;
+    top: 50%;
+  }
+}
