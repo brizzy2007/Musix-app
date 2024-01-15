@@ -47,7 +47,7 @@ const Navbar = () =>{
           <button className='font-bold mr-16 rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaInstagram /></button>
         </div>
 
-        <div className='md:hidden mr-4' onClick={handleClick}>
+        <div className='md:hidden mr-4 text-white' onClick={handleClick}>
           {!nav ? <IoMenu size={25}/> : <IoIosClose  size={25}/>}
         </div>
 
