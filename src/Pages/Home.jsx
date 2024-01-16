@@ -7,7 +7,7 @@ const Home = () =>{
   return (
     <div>
         <Innerpage_1 />
-        {/* <Innerpage_2 /> */}
+        <Innerpage_2 />
         <Innerpage_3 />
 
     </div>

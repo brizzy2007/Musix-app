@@ -22,22 +22,22 @@ const Innerpage_1 = () => {
           Musician
         </h1>
 
-        <div className='relative lg:bottom-28 sm:left-1'>
-        <div className='absolute  lg:top-96 lg:flex lg:gap-36 sm:top-4 sm:-right-80'>
-        <img src={Musix4} alt="" className='w-auto'/>
+        <div className='bottom-28'>
+        <div className='absolute  lg:top-96 lg:flex lg:gap-36 md:flex md:gap-10 md:top-44 md:-left-20'>
+        <img src={Musix4} alt="" className='hidden sm:block'/>
 
-        <div>
-            <h1 className='relative lg:-left-14 lg:top-8 font-semibold'>Omah Lay- It yours<p>Album:Boy alone</p> </h1>
+        <div className='md:absolute md:top-16 md:left-36 lg:static lg:top-auto lg:left-auto'>
+            <h1 className='relative lg:-left-14 lg:top-8 font-semibold hidden sm:block'>Omah Lay- It yours<p>Album:Boy alone</p> </h1>
       <audio
         controls
         src={ItYours}
         onPlay={togglePlay}
         onPause={togglePlay}
-        className='lg:mt-12 ml-10'>
+        className='lg:mt-12 ml-10 hidden sm:block'>
         </audio>
       </div>
 
-      <button>Buy Album</button>
+      <button className='hidden sm:block md:absolute lg:static lg:top-auto lg:left-auto md:top-48 md:-right-40 '>Buy Album</button>
 
         </div>
         </div>
