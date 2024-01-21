@@ -22,22 +22,22 @@ const Innerpage_1 = () => {
           Musician
         </h1>
 
-        <div className='bottom-28'>
+        <div className='bottom-28 '>
         <div className='absolute  lg:top-96 lg:flex lg:gap-36 md:flex md:gap-10 md:top-44 md:-left-20'>
-        <img src={Musix4} alt="" className='hidden sm:block'/>
+        <img src={Musix4} alt="" className='hidden sm:block md:relative md:-left-28'/>
 
-        <div className='md:absolute md:top-16 md:left-36 lg:static lg:top-auto lg:left-auto'>
-            <h1 className='relative lg:-left-14 lg:top-8 font-semibold hidden sm:block'>Omah Lay- It yours<p>Album:Boy alone</p> </h1>
+        <div className='md:absolute md:top-16 md:left-16 lg:static lg:top-auto lg:left-auto'>
+            <h1 className='relative lg:-left-56 font-semibold hidden sm:block md:-left-16 left lg:-bottom-20'>Omah Lay- It yours <br /> Album: Boy alone </h1>
       <audio
         controls
         src={ItYours}
         onPlay={togglePlay}
         onPause={togglePlay}
-        className='lg:mt-12 ml-10 hidden sm:block'>
+        className='lg:mt-12 ml-10 hidden sm:block relative lg:-left-48 lg:-bottom-10'>
         </audio>
       </div>
 
-      <button className='hidden sm:block md:absolute lg:static lg:top-auto lg:left-auto md:top-48 md:-right-40 '>Buy Album</button>
+      <button className='hidden sm:block relative lg:-left-24 lg:top-5 md:left-60 md:-top-1 font-semibold'>BuyAlbum</button>
 
         </div>
         </div>
