@@ -27,8 +27,8 @@ const Navbar = () =>{
       <div className='px-2 flex justify-between items-center w-full h-full'>
 
         <div className='flex items-center'>
-          <h1 className='text-4xl  mr-4 sm:text-3xl flex text-white'>
-            <img src={Musix} className='w-11 mr-2 '/>Musix</h1>
+         <Link to={'/'}><h1 className='text-4xl  mr-4 sm:text-3xl flex text-white'>
+            <img src={Musix} className='w-11 mr-2 '/>Musix</h1></Link> 
             <ul className='hidden md:flex gap-7 text-2xl px-40 text-white'>
            <Link to={'/'}><li>Home</li></Link>
             <Link to={'/about'}><li>About</li></Link>
