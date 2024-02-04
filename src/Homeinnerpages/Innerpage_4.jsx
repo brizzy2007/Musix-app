@@ -20,7 +20,7 @@ const Innerpage_4 = ({ text, texts }) =>{
 
 
   return (
-    <div className='lg:flex gap-2 mt-16 sm:block'>
+    <div className='flex gap-2 mt-16'>
     <div className="image-container" data-aos="fade-up">
       <img src={Main} alt="Hoverable Image" className="hoverable-imag"/>
       <div className="overlay">
