@@ -11,7 +11,7 @@ const Home = () =>{
         <Innerpage_1 />
         <Innerpage_2 />
         <Innerpage_3 />
-        <Innerpage_4 text='wassup' />
+        <Innerpage_4 text='wassup' texts='yo' />
 
     </div>
   )
