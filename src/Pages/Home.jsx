@@ -12,6 +12,10 @@ const Home = () =>{
         <Innerpage_2 />
         <Innerpage_3 />
         <Innerpage_4 text='wassup' texts='yo' />
+        <Innerpage_3 />
+        <Innerpage_3 />
+        
+
 
     </div>
   )

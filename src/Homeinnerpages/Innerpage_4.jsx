@@ -13,41 +13,41 @@ const Innerpage_4 = ({ text, texts }) =>{
   useEffect(() => {
     console.log('AOS initialization started');
     AOS.init({
-      duration: 1000, // You can adjust the duration as needed
+      duration: 2000, // You can adjust the duration as needed
       once: true, // Animation will only happen once
     });
   }, []);
 
 
   return (
-    <div className='flex gap-2 mt-16'>
-    <div className="image-container" data-aos="fade-up">
-      <img src={Main} alt="Hoverable Image" className="hoverable-imag"/>
-      <div className="overlay">
-        <p> <IoLogoYoutube /> {text}</p>
-      </div>
-    </div>
-
-    <div className="image-container" data-aos="fade-up">
-      <img src={Main2} alt="Hoverable Image" className="hoverable-image" />
-      <div className="overlay">
-        <p> <IoLogoYoutube /> {texts}</p>
-      </div>
-    </div>
-
-    <div className="image-container" data-aos="fade-up">
-      <img src={Main3} alt="Hoverable Image" className="hoverable-image" />
-      <div className="overlay">
-        <p> <IoLogoYoutube /> {text}</p>
-      </div>
-    </div>
-
+    <div className='flex mt-5'>
     <div className="image-container" data-aos="fade-up">
       <img src={Main4} alt="Hoverable Image" className="hoverable-image" />
       <div className="overlay">
         <p> <IoLogoYoutube /> {text}</p>
       </div>
     </div>
+
+    <div className="image-container" data-aos="fade-up">
+      <img src={Main2} alt="Hoverable Image" className="hoverable-image " />
+      <div className="overlay">
+        <p> <IoLogoYoutube /> {texts}</p>
+      </div>
+    </div>
+
+    <div className="image-container" data-aos="fade-up">
+      <img src={Main3} alt="Hoverable Image" className="hoverable-image " />
+      <div className="overlay">
+        <p> <IoLogoYoutube /> {text}</p>
+      </div>
+    </div>
+
+    {/* <div className="image-container" data-aos="fade-up">
+      <img src={Main4} alt="Hoverable Image" className="hoverable-image" />
+      <div className="overlay">
+        <p> <IoLogoYoutube /> {text}</p>
+      </div>
+    </div> */}
     </div>
   )
 }
