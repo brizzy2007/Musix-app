@@ -12,7 +12,7 @@ const LatestTracks = () => {
 
   return (
     <div className="latest-tracks-container">
-      <h2>Latest Tracks</h2>
+      <h2 className="text-center">Latest Tracks</h2>
       <div className="tracks-container">
         <div className="track-item">
           <img
@@ -25,7 +25,7 @@ const LatestTracks = () => {
             src={ItYours}
             onPlay={togglePlay}
             onPause={togglePlay}
-            className="mt-5 appearance-none focus:outline-none audio"
+            className="mt-5 appearance-none focus:outline-none audio custom-audio"
           ></audio>
             <h3>Track Name 1</h3>
             <p>Frando Kally</p>
@@ -43,7 +43,7 @@ const LatestTracks = () => {
             src={ItYours}
             onPlay={togglePlay}
             onPause={togglePlay}
-            className="mt-5 appearance-none focus:outline-none audio"
+            className="mt-5 appearance-none focus:outline-none audio custom-audio"
           ></audio>
             <h3>Track Name 2</h3>
             <p>Frando Kally</p>
@@ -62,7 +62,7 @@ const LatestTracks = () => {
             src={ItYours}
             onPlay={togglePlay}
             onPause={togglePlay}
-            className="mt-5 appearance-none focus:outline-none audio"
+            className="mt-5 appearance-none focus:outline-none audio custom-audio"
           ></audio>
             <h3>Track Name ŷ</h3>
             <p>Frando Kally</p>
