@@ -61,43 +61,4 @@
     max-width: 300px; /* Set a maximum width for larger screens */
   }
   
-  .custom-audio {
-    width: 100%; /* Make the audio player fill its container */
-    max-width: 300px; /* Set a maximum width for larger screens */
-    margin-top: 10px; /* Adjust top margin as needed */
-    background-color: #333; /* Set background color */
-    color: #fff; /* Set text color */
-    border-radius: 8px; /* Add border-radius for rounded corners */
-    padding: 10px; /* Add padding for better appearance */
-  }
   
-  .custom-audio::-webkit-media-controls-panel {
-    background-color: #333; /* Set background color for WebKit browsers */
-    border-radius: 8px; /* Add border-radius for rounded corners */
-  }
-  
-  .custom-audio::-webkit-media-controls-play-button,
-  .custom-audio::-webkit-media-controls-pause-button {
-    color: #fff; /* Set color for play/pause buttons */
-  }
-  
-  .custom-audio::-webkit-media-controls-current-time-display,
-  .custom-audio::-webkit-media-controls-time-remaining-display {
-    color: #fff; /* Set color for time display */
-  }
-  
-  .custom-audio::-webkit-media-controls-timeline {
-    background-color: #555; /* Set background color for timeline */
-  }
-  
-  .custom-audio::-webkit-media-controls-timeline-container {
-    height: 6px; /* Set height for timeline container */
-  }
-  
-  .custom-audio::-webkit-media-controls-timeline-runway {
-    background-color: #555; /* Set background color for timeline runway */
-  }
-  
-  .custom-audio::-webkit-media-controls-timeline-progress-bar {
-    background-color: #4caf50; /* Set color for timeline progress bar */
-  }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Musix4 from '../assets/Musix4.jpg';
 
-const Gello = ({ text }) => {
+const Lettereffect = ({ text }) => {
   const [displayText, setDisplayText] = useState('');
   const [index, setIndex] = useState(0);
 
@@ -9,7 +10,7 @@ const Gello = ({ text }) => {
       const timer = setTimeout(() => {
         setDisplayText((prevText) => prevText + text[index]);
         setIndex(index + 1);
-      }, 700); // Adjust the delay to control the typing speed
+      }, 500); // Adjust the delay to control the typing speed
       return () => clearTimeout(timer);
     } else {
       // Reset the index and display text from the beginning
@@ -21,7 +22,14 @@ const Gello = ({ text }) => {
     }
   }, [index, text]);
 
-  return <div className="text-4xl font-bold text-blue-500">{displayText}</div>; // Example Tailwind classes
+  return (
+    <div className='text-center bg-black lg:h-14 mt-0 sm:h-14'>
+      <div className="lg:text-4xl sm:text-3xl font-semibold text-white pt-2">
+        <span style={{ textShadow: '0 0 10px #00ff00' }}>{displayText}</span>
+        <span className='text-black'>.</span>
+      </div>
+    </div>
+  ); // Example Tailwind classes
 };
 
-export default Gello;
+export default Lettereffect;
