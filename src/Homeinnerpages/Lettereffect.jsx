@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Musix4 from '../assets/Musix4.jpg';
+
 
 const Lettereffect = ({ text }) => {
   const [displayText, setDisplayText] = useState('');

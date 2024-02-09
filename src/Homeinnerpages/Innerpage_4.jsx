@@ -20,11 +20,11 @@ const Innerpage_4 = ({ text, texts }) =>{
 
 
   return (
-    <div className='flex mt-5'>
+    <div className='flex mt-20'>
     <div className="image-container" data-aos="fade-up">
       <img src={Main4} alt="Hoverable Image" className="hoverable-image" />
       <div className="overlay">
-        <p> <IoLogoYoutube /> {text}</p>
+        <p className='flex gap-2'>  <IoLogoYoutube className='mt-1'/> {text}</p>
       </div>
     </div>
 

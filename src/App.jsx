@@ -7,6 +7,7 @@ import Blogs from './Pages/Blogs'
 import Contact from './Pages/Contact'
 import Tracks from './Pages/Tracks'
 import innerpage1 from './Homeinnerpages/Innerpage_1'
+import Footer from './Component/Footer'
 
 const App = () =>{
   return (
@@ -19,6 +20,7 @@ const App = () =>{
       <Route path='/contact' element={<Contact />}/>
       <Route path='/tracks' element={<Tracks />}/>
     </Routes>
+    <Footer />
    </Router>
   )
 }

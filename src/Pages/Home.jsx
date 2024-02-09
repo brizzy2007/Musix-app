@@ -5,6 +5,7 @@ import Innerpage_3 from '../Homeinnerpages/Innerpage_3'
 import Innerpage_4 from '../Homeinnerpages/Innerpage_4'
 import LatestTracks from '../Homeinnerpages/LatestTracks'
 import Lettereffect from '../Homeinnerpages/Lettereffect'
+import Lettereffects2 from '../Homeinnerpages/Lettereffects2'
 
 
 
@@ -18,8 +19,9 @@ const Home = () =>{
         <Lettereffect text="Designed by Brizzy Bright" />
         <Innerpage_2 />
         <Innerpage_3 />
-        <Innerpage_4 text='wassup' texts='yo' />
+        <Innerpage_4 text='Working effortlessly in the Studio' texts='yo' />
         <LatestTracks />
+        <Lettereffects2 text="Brizzy Bright" />
         
         
 
