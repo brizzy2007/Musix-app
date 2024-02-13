@@ -14,7 +14,7 @@ const Innerpage_4 = ({ text, texts }) =>{
     console.log('AOS initialization started');
     AOS.init({
       duration: 2000, // You can adjust the duration as needed
-      // once: true // Animation will only happen once
+      once: true // Animation will only happen once
     });
   }, []);
 
