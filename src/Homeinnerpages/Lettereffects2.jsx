@@ -23,10 +23,10 @@ const Lettereffects2 = ({ text }) => {
   }, [index, text]);
 
   return (
-    <div className='text-center bg-gray-200 lg:h-14 mt-0 sm:h-14'>
+    <div className='text-center bg-[#f5f5f5] lg:h-14 mt-0 sm:h-14'>
       <div className="lg:text-4xl sm:text-3xl font-semibold text-black pt-2">
         <span>{displayText}</span>
-        <span className='text-gray-200'>.</span>
+        <span className='text-[#f5f5f5]'>.</span>
       </div>
     </div>
   ); // Example Tailwind classes

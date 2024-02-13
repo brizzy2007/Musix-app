@@ -25,7 +25,7 @@ const LatestTracks = () => {
     <div className="latest-tracks-container">
       <h2 className="text-center text-4xl font-semibold mt-16">Latest Tracks</h2>
       <div className="tracks-container mt-10">
-        <div className="track-item" data-aos="fade-up">
+        <div className="track-item shadow-2xl" data-aos="fade-up">
           <img
             src="https://via.placeholder.com/150x150.png?text=Frando+Kally+Cover"
             alt="Track cover"
@@ -43,7 +43,7 @@ const LatestTracks = () => {
             <button className="buy-button">Buy Album</button>
           </div>
         </div>
-        <div className="track-item" data-aos="fade-up">
+        <div className="track-item shadow-2xl" data-aos="fade-up">
           <img
             src="https://via.placeholder.com/150x150.png?text=Frando+Kally+Cover"
             alt="Track cover"
@@ -61,7 +61,7 @@ const LatestTracks = () => {
             <button className="buy-button">Buy Album</button>
           </div>
         </div>
-        <div className="track-item" data-aos="fade-up">
+        <div className="track-item shadow-2xl" data-aos="fade-up">
             
           <img
             src="https://via.placeholder.com/150x150.png?text=Frando+Kally+Cover"

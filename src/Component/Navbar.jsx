@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import "./Footer.css";
 
 
 
@@ -42,9 +43,9 @@ const Navbar = () =>{
 
         
         <div className='hidden md:flex pr-4'>
-          <button className='mr-8 font-bold rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaFacebookF /></button>
-          <button className='mr-8 font-bold rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaTwitter /></button>
-          <button className='font-bold mr-16 rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaInstagram /></button>
+          <button className='text-white mr-6'><FaFacebookF className='instagram' size={21}/></button>
+          <button className='text-white mr-6'><FaTwitter className='instagram' size={25}/></button>
+          <button className='text-white'><FaInstagram  className='instagram' size={25}/></button>
         </div>
 
         <div className='md:hidden mr-4 text-white' onClick={handleClick}>
@@ -53,7 +54,7 @@ const Navbar = () =>{
 
 
       </div>
-      <ul className={!nav ? 'hidden' : 'absolute bg-[#351a05] w-[100%] px-8 h-[50vh] text-white'} onClick={handleClose}>
+      <ul className={!nav ? 'hidden' : 'absolute bg-[#351a05] w-[100%] px-8 h-[45vh] text-white'} onClick={handleClose}>
         <Link to={'/'}><li className='border-b-2 py-3 border-black-300 w-full'>Home</li></Link>
         <Link to={'/about'}><li className='border-b-2 py-3 border-black-300 w-full'>About</li></Link>
         <Link to={'/tracks'}><li className='border-b-2 py-3 border-black-300 w-full'>Tracks</li></Link>
@@ -61,10 +62,10 @@ const Navbar = () =>{
        <Link to={'/contact'}><li className='border-b-2 py-3 border-black-300 w-full'>Contact</li></Link>
 
         
-        <div className='mt-4'>
-          <button className='mr-8 font-bold rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaFacebookF /></button>
-          <button className='mr-8 font-bold rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaTwitter /></button>
-          <button className='font-bold mr-16 rounded-full bg-red-700 hover:bg-red-900 transition duration-300 ease-in-out p-2 text-white'><FaInstagram /></button>
+        <div className='mt-8'>
+        <button className='text-white mr-6'><FaFacebookF className='instagram' size={21}/></button>
+          <button className='text-white mr-6'><FaTwitter className='instagram' size={25}/></button>
+          <button className='text-white'><FaInstagram  className='instagram' size={25}/></button>
         </div>
       </ul>
       
