@@ -13,8 +13,8 @@ const Innerpage_4 = ({ text, texts }) =>{
   useEffect(() => {
     console.log('AOS initialization started');
     AOS.init({
-      duration: 2000, // You can adjust the duration as needed
-      once: true // Animation will only happen once
+      duration: 1000, // You can adjust the duration as needed
+      // once: true // Animation will only happen once
     });
   }, []);
 
@@ -24,23 +24,26 @@ const Innerpage_4 = ({ text, texts }) =>{
     <div className="image-container" data-aos="fade-up">
       <img src={Main4} alt="Hoverable Image" className="hoverable-image" />
       <div className="overlay">
-        <p className='flex gap-2'>  <IoLogoYoutube className='mt-1'/> {text}</p>
-      </div>
-    </div>
-
-    <div className="image-container" data-aos="fade-up">
-      <img src={Main2} alt="Hoverable Image" className="hoverable-image " />
-      <div className="overlay">
-        <p> <IoLogoYoutube /> {texts}</p>
+        <p className='flex gap-2'>  <IoLogoYoutube className='text-[#f00]' size={25}/> {text}</p>
       </div>
     </div>
 
     <div className="image-container" data-aos="fade-up">
       <img src={Main3} alt="Hoverable Image" className="hoverable-image " />
       <div className="overlay">
-        <p> <IoLogoYoutube /> {text}</p>
+        <p className='flex gap-2'> <IoLogoYoutube className='text-[#f00]' size={25}/> {texts}</p>
       </div>
     </div>
+
+
+    <div className="image-container" data-aos="fade-up">
+      <img src={Main2} alt="Hoverable Image" className="hoverable-image " />
+      <div className="overlay">
+        <p className='flex gap-2'> <IoLogoYoutube className='text-[#f00]' size={25} /> {text}</p>
+      </div>
+    </div>
+
+    
 
     {/* <div className="image-container" data-aos="fade-up">
       <img src={Main4} alt="Hoverable Image" className="hoverable-image" />

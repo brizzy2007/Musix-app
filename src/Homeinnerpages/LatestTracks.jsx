@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "./LatestTracks.css";
 import Soso from '../assets/Soso.mp3';
+import Joker from '../assets/Joker.mp3';
 import ComeCloser from '../assets/ComeCloser.mp3';
 import HolyGhost from '../assets/HolyGhost.mp3';
+import AlbumPic from '../assets/AlbumPic.webp';
+import AlbumPic2 from '../assets/AlbumPic2.jpeg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 const LatestTracks = () => {
   useEffect(() => {
     console.log('AOS initialization started');
     AOS.init({
-      duration: 2000, // You can adjust the duration as needed
-      once: true, // Animation will only happen once
+      duration: 1000, // You can adjust the duration as needed
+      // once: true, // Animation will only happen once
     });
   }, []);
     const [isPlaying, setIsPlaying] = useState(false);
@@ -22,12 +26,13 @@ const LatestTracks = () => {
 
 
   return (
+    <div className="bg-[#f0f0f0]">
     <div className="latest-tracks-container">
       <h2 className="text-center text-4xl font-semibold mt-16">Latest Tracks</h2>
       <div className="tracks-container mt-10">
         <div className="track-item shadow-2xl" data-aos="fade-up">
           <img
-            src="https://via.placeholder.com/150x150.png?text=Frando+Kally+Cover"
+            src={AlbumPic2}
             alt="Track cover"
           />
           <div className="track-info">
@@ -45,7 +50,7 @@ const LatestTracks = () => {
         </div>
         <div className="track-item shadow-2xl" data-aos="fade-up">
           <img
-            src="https://via.placeholder.com/150x150.png?text=Frando+Kally+Cover"
+            src={AlbumPic2}
             alt="Track cover"
           />
           <div className="track-info">
@@ -64,7 +69,7 @@ const LatestTracks = () => {
         <div className="track-item shadow-2xl" data-aos="fade-up">
             
           <img
-            src="https://via.placeholder.com/150x150.png?text=Frando+Kally+Cover"
+            src={AlbumPic2}
             alt="Track cover"
           />
           <div className="track-info">
@@ -81,6 +86,7 @@ const LatestTracks = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

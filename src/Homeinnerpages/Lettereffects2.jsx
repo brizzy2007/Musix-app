@@ -10,14 +10,14 @@ const Lettereffects2 = ({ text }) => {
       const timer = setTimeout(() => {
         setDisplayText((prevText) => prevText + text[index]);
         setIndex(index + 1);
-      }, 500); // Adjust the delay to control the typing speed
+      }, 500); 
       return () => clearTimeout(timer);
     } else {
-      // Reset the index and display text from the beginning
+      
       const resetTimer = setTimeout(() => {
         setIndex(0);
         setDisplayText('');
-      }, 1500); // Adjust this timeout to control the duration of the last letter shown
+      }, 1500); 
       return () => clearTimeout(resetTimer);
     }
   }, [index, text]);

@@ -19,7 +19,7 @@ const Home = () =>{
         <Lettereffect text="Designed by Brizzy Bright" />
         <Innerpage_2 />
         <Innerpage_3 />
-        <Innerpage_4 text='Working effortlessly in the Studio' texts='yo' />
+        <Innerpage_4 text='Working effortlessly in the Studio' texts='Grinding to the Musix Vibes' />
         <LatestTracks />
         <Lettereffects2 text="Brizzy Bright" />
         
