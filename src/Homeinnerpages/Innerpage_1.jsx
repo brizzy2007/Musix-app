@@ -37,7 +37,7 @@ const Innerpage_1 = () => {
         </audio>
       </div>
 
-      <button className='hidden sm:block relative lg:-left-24 lg:top-5 md:left-60 md:-top-1 font-semibold'>BuyAlbum</button>
+      <button className='hidden sm:block relative lg:-left-24 lg:top-5 md:left-60 md:-top-1 font-semibold'>Buy Album</button>
 
         </div>
         </div>

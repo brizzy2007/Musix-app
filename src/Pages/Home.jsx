@@ -21,7 +21,7 @@ const Home = () =>{
         <Innerpage_3 />
         <Innerpage_4 text='Working effortlessly in the Studio' texts='Grinding to the Musix Vibes' />
         <LatestTracks />
-        <Lettereffects2 text="Brizzy Bright" />
+        {/* <Lettereffects2 text="Brizzy Bright" /> */}
         
         
 
